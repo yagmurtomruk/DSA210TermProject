@@ -1,16 +1,24 @@
-## DSA 210 - TERM PROJECT 
+# DSA210 Term Project
 
-<!--
-**yagmurtomruk/yagmurtomruk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Contents
+- [Motivation](#motivation)
+- [Data Source](#data-source)
+- [Data Analysis](#data-analysis)
+- [Findings](#findings)
+- [Limitations & Future Work](#limitations--future-work)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
---> bjjh
+## Motivation
+
+## Data Sources and Collection
+- Where did you get the data?
+- How was it collected?
+- How did you preprocess it?
+
+## Data Analysis
+- What techniques and tools did you use?
+- How did you explore and process the data?
+- Did you perform any hypothesis tests?
+
+---
