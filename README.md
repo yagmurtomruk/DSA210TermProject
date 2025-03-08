@@ -2,10 +2,8 @@
 
 ## Contents
 - [Motivation](#motivation)
-- [Data Source](#data-source)
+- [Data Sources and Collection](#data-source)
 - [Data Analysis](#data-analysis)
-- [Findings](#findings)
-- [Limitations & Future Work](#limitations--future-work)
 
 ---
 
