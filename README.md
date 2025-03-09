@@ -1,4 +1,15 @@
-# DSA210 Term Project
+# DSA210 Term Project:
+
+## Project Overview
+This project explores the impact of air quality on running performance by analyzing data from personal running sessions alongside publicly available pollution metrics. By applying data science techniques, the study aims to determine whether factors like AQI levels, and particle concentrations influence pace, heart rate, and perceived effort. The goal is to use data-driven insights to better understand the relationship between environmental conditions and endurance exercise, contributing to both my personal training awareness and broader discussions on air quality and physical activity.
+
+The following hypotheses will be tested throughout the project:
+### Null Hypothesis (H₀): 
+- Air quality has no significant effect on my running performance.
+### Alternative Hypothesis (H₁): 
+- Poor air quality negatively impacts my running performance.
+
+---
 
 ## Contents
 - [Motivation](#motivation)
@@ -10,9 +21,8 @@
 
 ## Motivation
 
-As someone who enjoys running outdoors, I’ve always wondered whether air quality directly impacts my performance. There are days when my runs feel effortless, and other days when I struggle to maintain my usual pace—sometimes without any obvious reason. I started questioning whether pollution levels, specifically AQI (Air Quality Index), could be affecting my breathing, endurance, and overall running efficiency. Especially for someone living on the Sabancı University campus, the air quality certainly feels like an obstacle at certain times.
-
-This project is a personal experiment to see whether poor air quality impacts my running performance by affecting factors like pace, heart rate, and perceived effort. I want to turn this into a real experiment and collect data from my own running sessions to determine:
+As someone who enjoys running, I tend to struggle with unexpected fluctuations in my running performance when I am training outdoors. I’ve always wondered if this is because of the changes in air quality that directly impact my performance.  There are days when my runs feel effortless, and other days when I struggle to maintain my usual pace—sometimes without any obvious reason. I started questioning whether pollution levels, specifically AQI (Air Quality Index), could be affecting my breathing, endurance, and overall running efficiency. Especially for someone living on the Sabancı University campus, the air quality certainly feels like an obstacle at certain times.
+Therefore, I decided to take this project as a personal experiment to see whether poor air quality impacts my running performance by affecting factors like pace, heart rate, and perceived effort. I want to turn this into a real experiment and collect data from my own running sessions to determine:
 
 - Whether I run slower on days with poor air quality compared to clean-air days.
 - If my heart rate increases when I run in polluted conditions, even if my effort remains the same.
@@ -20,54 +30,49 @@ This project is a personal experiment to see whether poor air quality impacts my
   
 By tracking my running performance in different air conditions, I hope to uncover data-driven insights about how air pollution affects endurance sports. This study will help me, and potentially other outdoor sports enthusiasts, to understand when it’s best to train outdoors and whether avoiding high-pollution days can lead to better running performance.
 
-🔹 Null Hypothesis (H₀):
-Air quality has no significant effect on running performance.
-
-🔹 Alternative Hypothesis (H₁):
-Poor air quality negatively impacts running performance.
-
 ## Dataset
 
 The dataset for this project consists of running performance data collected over multiple outdoor running sessions, combined with real-time air quality measurements from publicly available sources.
-
 The datasets used for analysis will be:
 
-Date – The date of the running session.
-Air Quality Index (AQI) – A numerical value representing pollution levels at the time of the run.
-PM2.5 & NO₂ Concentrations – Specific pollutants known to affect lung function.
-Temperature & Humidity – To control for weather-related effects on performance.
-Running Distance (km/miles) – Ensuring consistency across sessions.
-Pace (min/km or min/mile) – I want to measure my pace as a direct measure of my running efficiency.
-Heart Rate (BPM) – Will be monitored as an indicator of cardiovascular strain.
-Perceived Effort (Scale 1-10) – Self-reported difficulty level.
+- **Date:** The date of the running session.
+- **Air Quality Index (AQI):** A numerical value representing pollution levels at the time of the run.
+- **PM2.5 & NO₂ Concentrations:** Specific pollutants known to affect lung function.
+- **Temperature & Humidity:** The specific temperature & humidity levels on the day and time of the run.
+- **Running Distance (km):** Ensuring consistency across sessions.
+- **Pace (min/km)** I want to measure my pace as a direct measure of my running efficiency.
+- **Heart Rate (BPM):** Will be monitored as an indicator of cardiovascular strain.
+- **Perceived Effort (Scale 1-10):** Self-reported difficulty level.
 
-All runs will be recorded under similar conditions (same route, time of day, and hydration levels) to minimize confounding variables and ensure meaningful comparisons.
+#### Control Measures to Ensure Data Consistency:
+
+All runs will be recorded under similar conditions (same route, time of day, and hydration levels) to ensure meaningful comparisons. The control measures will be as follows:
+
+- Same running route to avoiding terrain-related performance differences. The sessions will be held on the university campus.
+- Same time of day to minimize fluctuations in temperature and humidity levels.
+- Similar rest, hydration, and nutrition levels before each run. The sessions will be held daily before breakfast, at around 7 AM, which is my usual running time. 
+- Only outdoor runs will be recorded (No treadmill runs).
 
 ## Data Collection
 
-I will personally collect all running performance data using the Samsung Health app.
-Manual Logging – For perceived effort ratings and any additional observations (e.g., fatigue, shortness of breath).
+I will personally collect all running performance data.
+The heart rate and pace data will be monitored during the running session using a Samsung Galaxy Watch.
+For perceived effort ratings and any additional observations such as fatigue, and shortness of breath, I will log manually.
 
-For air quality data, I will use the data from www.weather.com since it provides real-time AQI, PM2.5, NO₂, temperature, and humidity data.
-Local Government Air Quality Data – If available, for additional verification.
-Each run’s air quality metrics will be logged within 30 minutes before or after the session to capture the most relevant environmental conditions.
+For air quality data, I will use the data from www.weather.com since it provides real-time AQI, PM2.5, NO₂, temperature, and humidity data. 
 
-Control Measures to Ensure Data Consistency:
-- Same running route – Avoiding terrain-related performance differences.-
-- Same time of day – Minimizing temperature and humidity fluctuations.
-- Similar rest, hydration, and nutrition levels before each run.
-- Only outdoor runs will be recorded (No treadmill runs).
+Each run’s air quality metrics will be logged in an Excel file within 30 minutes before or after the session to capture the most relevant environmental conditions.
 
 ## Data Analysis
 
-1) Categorization of Data
+**1) Categorization of Data**
 Categorize AQI into:
 - Good (0-50 AQI)
 - Moderate (51-100 AQI)
 - Unhealthy for Sensitive Groups (101-150 AQI)
 - Unhealthy (151-200 AQI)
-2) Correlation Analysis
-3) Regression Modeling
-4) Experimental Data Analysis (EDA)
+**2) Correlation Analysis**
+**3) Regression Modeling**
+**4) Experimental Data Analysis (EDA)**
 
 ---
