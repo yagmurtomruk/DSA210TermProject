@@ -15,7 +15,7 @@ The following hypotheses will be tested throughout the project:
 - [Motivation](#motivation)
 - [Dataset](#dataset)
 - [Data Collection](#data-collection)
-- [Data Analysis Plan](#data-analysis-plan)
+- [Current Data Analysis Plan](#current-data-analysis-plan)
 
 ---
 
@@ -63,7 +63,9 @@ For air quality data, I will use the data from www.weather.com since it provides
 
 Each run’s air quality metrics will be logged in an Excel file within 30 minutes before or after the session to capture the most relevant environmental conditions.
 
-## Data Analysis Plan
+## Current Data Analysis Plan
+
+Here are the current plans for the analysis steps:
 
 **1) Categorization of Data & Preprocessing**
 
@@ -72,14 +74,24 @@ Each run’s air quality metrics will be logged in an Excel file within 30 minut
   - Moderate (51-100 AQI)
   - Unhealthy for Sensitive Groups (101-150 AQI)
   - Unhealthy (151-200 AQI)
-- Cleaning and structuring the data logged in the Excel document. 
+- Cleaning and structuring the data logged in the Excel document.
+- Reorganizing the dataset by handling missing values, ensuring consistency in time, and removing outliers.
+- Standardizing numerical variables if necessary for comparison.
 
 **2) Correlation Analysis**
 
 Investigating the relationship between air quality and running performance based on collected data, to see if they are correlated.
 
-**3) Regression Modeling**
+**3) Exploratory Data Analysis (EDA)**
 
-**4) Exploratory Data Analysis (EDA)**
+- Identifying trends and patterns in air quality levels and running performance across different sessions.
+- Detecting outliers and unusual variations if present.
+
+**4) Regression Modeling**
+
+**5) Data Visualization**
+
+- Generating appropriate plots to illustrate the relationship between air quality and running performance.
+
 
 ---
