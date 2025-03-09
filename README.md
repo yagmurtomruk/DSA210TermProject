@@ -1,4 +1,4 @@
-# DSA210 Term Project:
+# DSA210 Term Project: How Air Quality Affects Running Performance
 
 ## Project Overview
 This project explores the impact of air quality on running performance by analyzing data from personal running sessions alongside publicly available pollution metrics. By applying data science techniques, the study aims to determine whether factors like AQI levels, and particle concentrations influence pace, heart rate, and perceived effort. The goal is to use data-driven insights to better understand the relationship between environmental conditions and endurance exercise, contributing to both my personal training awareness and broader discussions on air quality and physical activity.
@@ -89,9 +89,11 @@ Investigating the relationship between air quality and running performance based
 
 **4) Regression Modeling**
 
+For understanding how air quality impacts running performance, and quantifying the relationship between AQI and key performance indicators such as pace and heart rate.
+
 **5) Data Visualization**
 
-- Generating appropriate plots to illustrate the relationship between air quality and running performance.
+Generating appropriate plots to illustrate the relationship.
 
 
 ---
