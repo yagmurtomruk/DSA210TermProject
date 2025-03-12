@@ -42,7 +42,6 @@ The datasets used for analysis will be:
 - **Running Distance (km):** Ensuring consistency across sessions.
 - **Pace (min/km)** I want to measure my pace as a direct measure of my running efficiency.
 - **Heart Rate (BPM):** Will be monitored as an indicator of cardiovascular strain.
-- **Perceived Effort (Scale 1-10):** Self-reported difficulty level.
 
 #### Control Measures to Ensure Data Consistency:
 
@@ -57,7 +56,6 @@ All runs will be recorded under similar conditions (same route, time of day, and
 
 I will personally collect all running performance data.
 The heart rate and pace data will be monitored during the running session using a Samsung Galaxy Watch.
-For perceived effort ratings and any additional observations such as fatigue, and shortness of breath, I will log manually.
 
 For air quality data, I will use the data from www.weather.com since it provides real-time AQI, PM2.5, NO₂, temperature, and humidity data. 
 
